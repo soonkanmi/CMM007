@@ -1,21 +1,53 @@
-<?php
-    echo "Hello again, this is using vscode "
-?>
+<!DOCTYPE html>
+<html>
+<head>
+	</head>
+	<body>
+        <p>
+        <?php
+            echo "Hello World"; 
+        ?>
+        </p>
+        <p>
+        <?php
+            $myname = "Olasunkanmi";
+            $myage = 87;
 
-<?php
-echo "I get printed!";
-// I don't! I'm a comment.//
-    ?>
+            echo "My name is ".$myname.", I am ".$myage;
+        ?>
+        </p>
+        <p>
+        <?php
+        $name = "Olasunkanmi";
+            if ($name =="Simon") {
+                print "I know you";
+            }
+                else {
+                print "I don't know you";
+            }
+            ?>
+            </P>
+            <p>
+            <?php
+            $wantedgood = "mugs";
 
-    <?php
-    echo"hello, world!";
-    ?>
-    
+            switch($wantedgood) {
+            case "spec":
+                echo "You have to be 16";
+                break;
+            case "mugs":
+                echo "You have to be 18";
+                break;
+            case "sausage roll":
+                echo "You have to be 21";
+                break;
+            default:
+                echo "You haven't select a thing to buy";
+            }
+            ?>
+            </p>
 
-    <?php
-    $myname= "Frodo Baggins ";
-    $myage= 111;
-    echo "my name is" .$myname. "and I am" .$myage;
-    ?>
+	</body>
+</html>
 
 

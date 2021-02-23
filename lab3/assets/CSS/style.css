@@ -1,0 +1,130 @@
+    body{
+        max-width:960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        @import "templatecolours.css";
+        body{
+            background-color: red;
+        }
+        header{
+            background-color: green;
+        }
+        main{
+            background-color: white;
+        }
+        section{
+            background-color: orange;
+        }
+        aside{
+            background-color: yellow;
+        }
+        article{
+            background-color: purple;
+        }
+    /*NAVIGATION BAR CSS*/
+    nav>ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    nav>ul>li {
+        float:left;
+    }
+    nav>ul>li a {
+        display:block;
+        color: #0000;
+        text-align:center;
+        padding:10px 30px;
+        text-decoration: none;
+    }
+    li a:hover {color: #363636;}
+    /* IMAGE SIZING CSS */
+    #csdmlogo
+    {
+       width: 100px; 
+    }
+    #banner
+    {
+        max-width: 960px;
+        height: 300;
+    }
+    #hos
+    {
+        width: 200px;
+        float: left;
+        padding-right: 10px;
+    }
+    /*TEXT STYLING */
+    hi {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+    p, h2, h3, h4 a{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+    h3, h4{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+        
+    /* COLOURING */
+    #news{
+        background-color:#DBC9DF;
+    }
+    #events{
+        background-color: #7B2A7E;
+    }
+    #footer{
+        background-color: #363636;
+    }
+    aside p,h3,h4{
+        color: white
+    }
+    /* MARGIN FIXES */
+    aside p,h3,h4{
+        margin: 0;
+    }
+    aside h3{
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    aside h4{
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    aside {
+        padding-right: 0px !important;
+        margin-top: 5px !important;
+    }
+    main{
+        padding-right: 0px !important;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 13px; 
+    }
+    a {
+        font-size: 13px;
+    }
+    footer>p{
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        color: white
+    }
